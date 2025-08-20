@@ -1,4 +1,4 @@
-## TruthGuard - AI-Powered Fake News Detection
+## TruthGuard - Fake News Detection
 
 ## 🚀 Project Overview
 
