@@ -137,25 +137,23 @@ npm run dev
 - `src/utils/onlineVerifier.ts`: Simulated online verification against credible domains
 - `src/utils/fakeNewsDetector.ts`: Content heuristics and hybrid decisioning
 
-## 📁 Project Structure
 FakeNewsDetaction-main/
 ├── src/
-│ ├── App.tsx # Root app, routing between views
-│ ├── components/
-│ │ ├── Header.tsx # Branding header
-│ │ ├── Navigation.tsx # Analyze/Dashboard tabs
-│ │ ├── ArticleInput.tsx # URL/Text inputs + samples
-│ │ ├── Results.tsx # Prediction + confidence + feedback
-│ │ └── Dashboard.tsx # Metrics and recent analyses
-│ ├── utils/
-│ │ ├── fakeNewsDetector.ts # Hybrid content + verification logic
-│ │ └── onlineVerifier.ts # Simulated credible source checks
-│ └── types/
-│ └── index.ts # Article / PredictionResult types
+│   ├── App.tsx                          # Root app, routing between views
+│   ├── components/
+│   │   ├── Header.tsx                   # Branding header
+│   │   ├── Navigation.tsx               # Analyze/Dashboard tabs
+│   │   ├── ArticleInput.tsx             # URL/Text inputs + samples
+│   │   ├── Results.tsx                  # Prediction + confidence + feedback
+│   │   └── Dashboard.tsx                # Metrics and recent analyses
+│   ├── utils/
+│   │   ├── fakeNewsDetector.ts          # Hybrid content + verification logic
+│   │   └── onlineVerifier.ts            # Simulated credible source checks
+│   └── types/
+│       └── index.ts                     # Article / PredictionResult types
 ├── index.html
 ├── package.json
 └── README.md
-
 ## 🤝 Contributing
 
 1. Fork the repository
