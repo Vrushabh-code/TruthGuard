@@ -137,6 +137,8 @@ npm run dev
 - `src/utils/onlineVerifier.ts`: Simulated online verification against credible domains
 - `src/utils/fakeNewsDetector.ts`: Content heuristics and hybrid decisioning
 
+### Project Structure 
+
 FakeNewsDetaction-main/
 ├── src/
 │   ├── App.tsx                          # Root app, routing between views
@@ -154,6 +156,8 @@ FakeNewsDetaction-main/
 ├── index.html
 ├── package.json
 └── README.md
+
+
 ## 🤝 Contributing
 
 1. Fork the repository
