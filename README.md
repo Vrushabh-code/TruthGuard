@@ -139,6 +139,7 @@ npm run dev
 
 ### Project Structure 
 
+```
 FakeNewsDetaction-main/
 ├── src/
 │   ├── App.tsx                          # Root app, routing between views
@@ -156,6 +157,7 @@ FakeNewsDetaction-main/
 ├── index.html
 ├── package.json
 └── README.md
+```
 
 
 ## 🤝 Contributing
